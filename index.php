@@ -65,11 +65,12 @@
 
 	         <ul id="nav" class="nav">
 	            <li class="current"><a class="smoothscroll" href="#hero">Home.</a></li>
-		         <li><a class="smoothscroll" href="#portfolio">Works.</a></li>
+		        <li><a class="smoothscroll" href="#portfolio">Works.</a></li>
 	            <li><a class="smoothscroll" href="#services">Services.</a></li>
 	            <li><a class="smoothscroll" href="#about">About.</a></li>
 	            <li><a class="smoothscroll" href="#journal">News.</a></li>	            
-	            <li><a class="smoothscroll" href="#contact">Contacts.</a></li>
+				<li><a class="smoothscroll" href="#contact">Contacts.</a></li>
+				<li><a href="login.php">Login.</a></li>
 	         </ul> 
 
 	      </nav> <!-- /nav-wrap -->	      
