@@ -164,7 +164,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>    
             <div class="form-group">
                 <label for="FirstName">First Name</label>
-                <input type="text" name="firstname" class="form-control" value=" <?php echo $firstname; ?>" placeholder="Enter First Name">
+                <input type="text" name="firstname" class="form-control" value="<?php echo $firstname; ?>" placeholder="Enter First Name">
                 <span class="help-block"><?php echo displayError($firstname_err); ?></span>
             </div>
             <div class="form-group">
@@ -203,7 +203,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Submit">
-                <input type="reset" class="btn btn-default" value="Reset">
+                <!-- <input type="reset" class="btn btn-default" value="Reset"> -->
             </div>
             <p>Already have an account? <a href="login.php">Login here</a>.</p>
         </form>
