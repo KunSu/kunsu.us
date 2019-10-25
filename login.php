@@ -55,7 +55,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         ) {
             if(mysqli_stmt_num_rows($stmt) == 1){
                 if(mysqli_stmt_fetch($stmt)){
-                    if(password_verify($password, $hashed_password)){
+                    if(md5($password) == $hashed_password) {
                         // Password is correct, so start a new session
                         session_start();
                                                 
@@ -108,9 +108,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input type="password" name="password" class="form-control" placeholder="Password">
             </div>
             <br>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-success">Submit</button>
+            <a href="register.php" class="btn btn-primary">Sign Up</a>
             <a href="index.php" class="btn btn-danger">Home Page</a>
         </form>
     </div>    
 </body>
 </html>
+
