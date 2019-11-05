@@ -20,7 +20,8 @@
     ================================================== -->
    <link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/media-queries.css">         
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/kunsu.css">         
 
    <!-- Script
    =================================================== -->
@@ -64,12 +65,12 @@
          	</a>         
 
 	         <ul id="nav" class="nav">
-	            <li><a href="index.html#hero">Home.</a></li>
-		         <li class="current"><a href="index.html#portfolio">Works.</a></li>
-	            <li><a href="index.html#services">Services.</a></li>
-	            <li><a href="index.html#about">About.</a></li>
-	            <li><a href="index.html#journal">Blog.</a></li>	        
-	            <li><a href="index.html#contact">Contact.</a></li>
+	            <li><a href="index.php#hero">Home.</a></li>
+		         <li class="current"><a href="index.php#portfolio">Works.</a></li>
+	            <li><a href="index.php#services">Services.</a></li>
+	            <li><a href="index.php#about">About.</a></li>
+	            <li><a href="index.php#journal">Blog.</a></li>	        
+	            <li><a href="index.php#contact">Contact.</a></li>
 	         </ul> 
 
 	      </nav> <!-- /nav-wrap -->	      
@@ -97,10 +98,15 @@
    </section> <!-- /page-title -->
 
 
+   <?php
+		require_once "cookies.php";
+		set_cookies("portfolio");
+	?>
+
    <!-- Content
    ================================================== -->
    <section id="content">
-
+   <?php get_cookies(); ?>
    	<div class="row portfolio-content">
 
 	   	<div class="entry tab-whole nine columns centered">
@@ -309,5 +315,7 @@
    <script src="js/main.js"></script>
 
 </body>
+
+
 
 </html>

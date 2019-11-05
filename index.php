@@ -133,16 +133,15 @@
 
       <div class="row section-head">
 
-      	<div class="twelve columns">
+      	<div class="twelve columns about">
 
-	         <h1>Our Latest Works<span>.</span></h1>
+			<h1>My Experiences and Projects<span>.</span></h1>
 
-	         <hr />
+			<hr />
 
-	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         </p>
+			<p>I am a Full Stack Software Engineer with 3 years experience.</p>
+			<br>
+			<p>I’m an active proponent of Java - I love the power of composing result sets in hibernate, using RESTful API to scale the system horizontally, and the way Junit interact well with all the components.</p>
 
 	      </div>
 
@@ -157,12 +156,12 @@
           	   <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.html">
-                        <img src="images/portfolio/grizzly.jpg" alt="Grizzly">
+                     <a href="SJSU_MSTA.php">
+                        <img src="images/portfolio/grizzly.jpg" alt="San Jose State University">
                         <div class="overlay"></div>                       
                         <div class="portfolio-item-meta">
-          					      <h5>Grizzly</h5>
-                              <p>Photography</p>
+          					      <h5>San Jose State University</h5>
+                              <p>Master Courses Teaching Assistant</p>
           					</div>                         
                      </a>
 
@@ -172,12 +171,12 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.html">
-                        <img src="images/portfolio/hotel.jpg" alt="Hotel Sign">
+                     <a href="Laioffer.php">
+                        <img src="images/portfolio/hotel.jpg" alt="Laioffer">
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>Hotel Sign</h5>
-                              <p>Webdesign</p>
+          					      <h5>Laioffer</h5>
+                              <p>Software Engineer</p>
           					   </div>
                         </div>                        
                      </a>
@@ -188,12 +187,12 @@
                <div class="bgrid stack item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.html">
-                        <img src="images/portfolio/beetle.jpg" alt="Beetle">                        
+                     <a href="ProjectHub.php">
+                        <img src="images/portfolio/beetle.jpg" alt="ProjectHub">                        
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>Beetle</h5>
-                              <p>Branding</p>
+          					      <h5>Project Hub Inc</h5>
+                              <p>Software Engineer</p>
           					   </div>
                         </div>                        
                      </a>
@@ -204,12 +203,12 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.html">
-                        <img src="images/portfolio/banjo-player.jpg" alt="Banjo Player">
+                     <a href="SJSU_BSTA.php">
+                        <img src="images/portfolio/banjo-player.jpg" alt="San Jose State University">
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>Banjo Player</h5>
-                              <p>Videography</p>
+          					      <h5>San Jose State University</h5>
+                              <p>Master Courses Research Assistant & Teaching Assistant</p>
           					   </div>
                         </div>                       
                      </a>
@@ -220,12 +219,12 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.html">
-                     	<img src="images/portfolio/coffee.jpg" alt="Coffee Cup">
+                     <a href="IBM.php">
+                     	<img src="images/portfolio/coffee.jpg" alt="IBM">
                        	<div class="overlay">
                        		<div class="portfolio-item-meta">
-          					      <h5>Coffee Cup</h5>
-                              <p>Photography</p>
+          					      <h5>IBM</h5>
+                              <p>Software Engineer</p>
           					   </div>
                        	</div>                        
                      </a>
@@ -236,12 +235,12 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.html">
-                        <img src="images/portfolio/farmerboy.jpg" alt="Farmerboy">
+                     <a href="Netherfire_Entertainment.php">
+                        <img src="images/portfolio/farmerboy.jpg" alt="Netherfire Entertainment">
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>Farmerboy</h5>
-                              <p>Branding</p>
+          					      <h5>Netherfire Entertainment</h5>
+                              <p>Software Engineering Intern</p>
           					   </div>
                         </div>                        
                      </a>
@@ -252,7 +251,7 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.html">                        
+                     <a href="portfolio.php">                        
                         <img src="images/portfolio/judah.jpg" alt="Judah">                       
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
@@ -268,7 +267,39 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.html">
+                     <a href="portfolio.php">
+                        <img src="images/portfolio/embossed-paper.jpg" alt="Embossed Paper">
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Embossed Paper</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>                                                
+                     </a>                   
+
+                  </div>
+				</div>  <!-- item end -->
+				  
+				<div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="portfolio.php">
+                        <img src="images/portfolio/embossed-paper.jpg" alt="Embossed Paper">
+                        <div class="overlay">
+                        	<div class="portfolio-item-meta">
+          					      <h5>Embossed Paper</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>                                                
+                     </a>                   
+
+                  </div>
+				</div>  <!-- item end -->
+				  
+				<div class="bgrid item">
+                  <div class="item-wrap">
+
+                     <a href="portfolio.php">
                         <img src="images/portfolio/embossed-paper.jpg" alt="Embossed Paper">
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
