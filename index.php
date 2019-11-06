@@ -20,7 +20,7 @@
     ================================================== -->
    <link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/media-queries.css">         
+   <link rel="stylesheet" href="css/media-queries.css">       
 
    <!-- Script
    =================================================== -->
@@ -135,13 +135,13 @@
 
       	<div class="twelve columns about">
 
-			<h1>My Experiences and Projects<span>.</span></h1>
+			<h1>Top 10 PS4 Games of All Time<span>.</span></h1>
 
 			<hr />
 
-			<p>I am a Full Stack Software Engineer with 3 years experience.</p>
+			<p>Below is the list of my person Top 10 PS4 Game of All Time.</p>
 			<br>
-			<p>I’m an active proponent of Java - I love the power of composing result sets in hibernate, using RESTful API to scale the system horizontally, and the way Junit interact well with all the components.</p>
+			<!-- <p>I’m an active proponent of Java - I love the power of composing result sets in hibernate, using RESTful API to scale the system horizontally, and the way Junit interact well with all the components.</p> -->
 
 	      </div>
 
@@ -156,12 +156,12 @@
           	   <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="SJSU_MSTA.php">
-                        <img src="images/portfolio/grizzly.jpg" alt="San Jose State University">
+                     <a href="God Of War.php">
+                        <img src="images/games/God Of War.jpg" alt="God Of War">
                         <div class="overlay"></div>                       
                         <div class="portfolio-item-meta">
-          					      <h5>San Jose State University</h5>
-                              <p>Master Courses Teaching Assistant</p>
+          					    <h5>God Of War</h5>
+                              	<p>No.1</p>
           					</div>                         
                      </a>
 
@@ -171,12 +171,12 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="Laioffer.php">
-                        <img src="images/portfolio/hotel.jpg" alt="Laioffer">
+                     <a href="Monster Hunter World.php">
+                        <img src="images/games/Monster Hunter World.jpg" alt="Monster Hunter World">
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>Laioffer</h5>
-                              <p>Software Engineer</p>
+          					    <h5>Monster Hunter World</h5>
+                              	<p>No.2</p>
           					   </div>
                         </div>                        
                      </a>
@@ -187,12 +187,12 @@
                <div class="bgrid stack item">
                   <div class="item-wrap">
 
-                     <a href="ProjectHub.php">
-                        <img src="images/portfolio/beetle.jpg" alt="ProjectHub">                        
+                     <a href="Tom Clancy's The Division 2.php">
+                        <img src="images/games/Tom Clancy's The Division 2.jpg" alt="Tom Clancy's The Division 2">                        
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>Project Hub Inc</h5>
-                              <p>Software Engineer</p>
+								<h5>Tom Clancy's The Division 2</h5>
+                              	<p>No.3</p>
           					   </div>
                         </div>                        
                      </a>
@@ -203,12 +203,12 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="SJSU_BSTA.php">
-                        <img src="images/portfolio/banjo-player.jpg" alt="San Jose State University">
+                     <a href="The Witcher 3.php">
+                        <img src="images/games/The Witcher 3.jpg" alt="The Witcher 3">
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>San Jose State University</h5>
-                              <p>Master Courses Research Assistant & Teaching Assistant</p>
+								<h5>The Witcher 3</h5>
+                              	<p>No.4</p>
           					   </div>
                         </div>                       
                      </a>
@@ -219,12 +219,12 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="IBM.php">
-                     	<img src="images/portfolio/coffee.jpg" alt="IBM">
+                     <a href="Overcooked! 2.php">
+                     	<img src="images/games/Overcooked! 2.jpg" alt="Overcooked! 2">
                        	<div class="overlay">
                        		<div class="portfolio-item-meta">
-          					      <h5>IBM</h5>
-                              <p>Software Engineer</p>
+								<h5>Overcooked! 2</h5>
+                              	<p>No.5</p>
           					   </div>
                        	</div>                        
                      </a>
@@ -235,12 +235,12 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="Netherfire_Entertainment.php">
-                        <img src="images/portfolio/farmerboy.jpg" alt="Netherfire Entertainment">
+                     <a href="Red Dead Redemption 2.php">
+                        <img src="images/games/Red Dead Redemption 2.jpg" alt="Red Dead Redemption 2">
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>Netherfire Entertainment</h5>
-                              <p>Software Engineering Intern</p>
+								<h5>Red Dead Redemption 2</h5>
+                              	<p>No.6</p>
           					   </div>
                         </div>                        
                      </a>
@@ -251,12 +251,12 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.php">                        
-                        <img src="images/portfolio/judah.jpg" alt="Judah">                       
+                     <a href="Grand Theft Auto V.php">                        
+                        <img src="images/games/Grand Theft Auto V.jpg" alt="Grand Theft Auto V">                       
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>Judah</h5>
-                              <p>Web Design</p>
+								<h5>Grand Theft Auto V</h5>
+                              	<p>No.7</p>
           					   </div>
                         </div>                        
                      </a>
@@ -267,12 +267,12 @@
                <div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.php">
-                        <img src="images/portfolio/embossed-paper.jpg" alt="Embossed Paper">
+                     <a href="World War Z.php">
+                        <img src="images/games/World War Z.jpg" alt="World War Z">
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>Embossed Paper</h5>
-                              <p>Branding</p>
+								<h5>World War Z</h5>
+                              	<p>No.8</p>
           					   </div>
                         </div>                                                
                      </a>                   
@@ -283,12 +283,12 @@
 				<div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.php">
-                        <img src="images/portfolio/embossed-paper.jpg" alt="Embossed Paper">
+                     <a href="Final Fantasy XV.php">
+                        <img src="images/games/Final Fantasy XV.jpg" alt="Final Fantasy XV">
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>Embossed Paper</h5>
-                              <p>Branding</p>
+								<h5>Final Fantasy XV</h5>
+                              	<p>No.9</p>
           					   </div>
                         </div>                                                
                      </a>                   
@@ -299,12 +299,12 @@
 				<div class="bgrid item">
                   <div class="item-wrap">
 
-                     <a href="portfolio.php">
-                        <img src="images/portfolio/embossed-paper.jpg" alt="Embossed Paper">
+                     <a href="Nier.php">
+                        <img src="images/games/Nier.jpg" alt="Nier">
                         <div class="overlay">
                         	<div class="portfolio-item-meta">
-          					      <h5>Embossed Paper</h5>
-                              <p>Branding</p>
+								<h5>Nier</h5>
+                              	<p>No.10</p>
           					   </div>
                         </div>                                                
                      </a>                   
