@@ -57,7 +57,8 @@ function get_product_view_count() {
     asort($products);
     $index = 0;
     foreach ($products as $product_name => $product_count) {
-        echo "<br><a href=" . $product_name . ".php>" . $product_name . ": " . $product_count . " views</a><br>";
+        $url = str_replace(' ', '%20', $product_name);
+        echo "<br><a href=" . $url . ".php>" . $product_name . ": " . $product_count . " views</a><br>";
         $index += 1;
         if($index == 5) {
             break;
