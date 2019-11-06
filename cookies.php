@@ -1,10 +1,9 @@
 <?php
 function set_cookies($cached_page_name) {
-    if (!isset($_COOKIE["LRU"])) {
-        $temp = array();
-        setcookie("LRU", json_encode($temp), time() + 60 * 60 * 24 * 5);
-    }
-    $LRUCache = json_decode($_COOKIE["LRU"], true);
+    $LRUCache = array();
+    if (isset($_COOKIE["LRU"])) {
+        $LRUCache = json_decode($_COOKIE["LRU"], true);
+    } 
     if (array_key_exists($cached_page_name, $LRUCache)) {
         unset($LRUCache[$cached_page_name]);
     }
@@ -12,16 +11,14 @@ function set_cookies($cached_page_name) {
         array_shift($LRUCache);
     } 
     $LRUCache[$cached_page_name] = time();
-    $LRUCache = json_encode($LRUCache);
-    setcookie("LRU", $LRUCache, time() + 60 * 60 * 24 * 5);
+    setcookie("LRU", json_encode($LRUCache), time() + 60 * 60 * 24 * 5);
 }
 
 function get_cookies() {
-    if (!isset($_COOKIE["LRU"])) {
-        $temp = array();
-        setcookie("LRU", json_encode($temp), time() + 60 * 60 * 24 * 5);
-    }
-    $LRUCache = json_decode($_COOKIE["LRU"], true);
+    $LRUCache = array();
+    if (isset($_COOKIE["LRU"])) {
+        $LRUCache = json_decode($_COOKIE["LRU"], true);
+    } 
     echo '<aside class="LRU">';
     echo "<p>Last five previously visited pages</p>";
     $pages = array();
@@ -37,22 +34,24 @@ function get_cookies() {
 }
 
 function add_product_view_count($product_name) {
-    if (!isset($_COOKIE["product_view_count"])) {
-        $temp = array();
-        setcookie("product_view_count", json_encode($temp), time() + 60 * 60 * 24 * 5);
+    $products = array();
+    if (isset($_COOKIE["product_view_count"])) {
+        $products = json_decode($_COOKIE["product_view_count"], true);
+    } 
+    if (isset($products[$product_name])) {
+        $products[$product_name]++;
+    } else {
+        $products[$product_name] = 1;
     }
-    $products = json_decode($_COOKIE["product_view_count"], true);
-    $products[$product_name] += 1;
     $products = json_encode($products);
     setcookie("product_view_count", $products, time() + 60 * 60 * 24 * 5);
 }
 
 function get_product_view_count() {
-    if (!isset($_COOKIE["product_view_count"])) {
-        $temp = array();
-        setcookie("product_view_count", json_encode($temp), time() + 60 * 60 * 24 * 5);
-    }
-    $products = json_decode($_COOKIE["product_view_count"], true);
+    $products = array();
+    if (isset($_COOKIE["product_view_count"])) {
+        $products = json_decode($_COOKIE["product_view_count"], true);
+    } 
     echo '<aside class="product">';
     echo "<p>Last five most visited pages</p>";
     asort($products);
