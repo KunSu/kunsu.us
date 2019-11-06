@@ -29,8 +29,8 @@ function get_cookies() {
         $pages[$page_cached_time] = $page_name;
     }
     krsort($pages);
-    $url = str_replace(' ', '%20', $page_name);
     foreach ($pages as $page_cached_time => $page_name) {
+        $url = str_replace(' ', '%20', $page_name);
         echo "<br><a href=" . $url . ".php>" . $page_name . "</a><br>";
     }
     echo "</aside>";
