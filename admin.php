@@ -124,7 +124,7 @@ function get_display_result($db_connection) {
     </div>
     <br>
     <p>
-        <a href="user.php" class="btn btn-danger">All User Pages</a>
+        <a href="user.php" class="btn btn-primary">All User Pages</a>
         <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
     </p>
 </body>

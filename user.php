@@ -142,7 +142,7 @@ function get_user_list($name) {
 
     <br>
     <p>
-        <a href="home.php" class="btn btn-danger">Home Page</a>
+        <a href="index.php" class="btn btn-primary">Home Page</a>
         <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
     </p>
 </body>
