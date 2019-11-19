@@ -1,4 +1,7 @@
 body { font: 14px sans-serif; text-align: center; }
+.container { max-width: 400px; }
+.container th { text-align: center; }
 .LRU { float: right; padding-top: 75px; padding-right: 80px; }
 .product { float: left; padding-top: 75px; padding-left: 80px; }
 .experiences li { text-align: left; }
+.user { max-width: 1170px; }

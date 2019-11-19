@@ -47,7 +47,7 @@ function get_user_list($name) {
     </div>
     <br>
 
-    <div class="container">
+    <div class="container user">
          <div class="row">
             
             <div class="col-6 col-md-4">
