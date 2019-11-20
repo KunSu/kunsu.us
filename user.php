@@ -54,7 +54,6 @@ function get_user_list($name) {
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">#</th>
                             <th scope="col">UserName:</th>
                             <th scope="col">Email:</th>
                             <th scope="col">Phone:</th>
@@ -64,11 +63,9 @@ function get_user_list($name) {
 
                     <?php
                         $result = get_user_list("Kun");
-                        $index = 1;
                         foreach ($result as $key => $value)
                         {
                             echo "<tr>";
-                            echo "<th scope=\"row\">" . $index++ . "</th>";
                             echo "<td>" . $value['username'] . "</td>";
                             echo "<td>" . $value['email'] . "</td>";
                             echo "<td>" . $value['homephone'] . "</td>";
@@ -84,7 +81,6 @@ function get_user_list($name) {
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">#</th>
                             <th scope="col">UserName:</th>
                             <th scope="col">Email:</th>
                             <th scope="col">Phone:</th>
@@ -93,11 +89,11 @@ function get_user_list($name) {
                     <tbody>
                         <?php
                             $result = get_user_list("Taylor");
-                            $index = 1;
+
                             foreach ($result as $key => $value)
                             {
                                 echo "<tr>";
-                                echo "<th scope=\"row\">" . $index++ . "</th>";
+
                                 echo "<td>" . $value['username'] . "</td>";
                                 echo "<td>" . $value['email'] . "</td>";
                                 echo "<td>" . $value['homephone'] . "</td>";
@@ -113,7 +109,6 @@ function get_user_list($name) {
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">#</th>
                             <th scope="col">UserName:</th>
                             <th scope="col">Email:</th>
                             <th scope="col">Phone:</th>
@@ -122,11 +117,11 @@ function get_user_list($name) {
                     <tbody>
                         <?php
                             $result = get_user_list("Ru");
-                            $index = 1;
+
                             foreach ($result as $key => $value)
                             {
                                 echo "<tr>";
-                                echo "<th scope=\"row\">" . $index++ . "</th>";
+
                                 echo "<td>" . $value['username'] . "</td>";
                                 echo "<td>" . $value['email'] . "</td>";
                                 echo "<td>" . $value['homephone'] . "</td>";
