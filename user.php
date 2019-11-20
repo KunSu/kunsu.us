@@ -27,7 +27,6 @@ function get_user_list($name) {
     $json = curl_exec($cURL);
     curl_close($cURL);
 
-    $json = file_get_contents("users.json");
     $json = json_decode($json, true);
     return $json;
 }
