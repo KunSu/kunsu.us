@@ -1,6 +1,9 @@
 <?php
 // Reference: https://www.tutorialrepublic.com/php-tutorial/php-mysql-login-system.php
 
+// Include config file
+require_once "config.php";
+
 // Initialize the session
 session_start();
 
@@ -10,7 +13,17 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 
-function get_user_list($name) {
+function get_user_list($db_connection, $name) {
+
+    // Processing SQL
+    $sql = "SELECT username, email, homephone FROM users";
+    $result = mysqli_query($db_connection, $sql);
+    $result = mysqli_fetch_array($result);
+    $result = json_encode($result, true);
+    $JSONfile = fopen("users.json", "w");
+    fwrite($JSONfile, $result);
+    fclose($JSONfile);
+    mysqli_close($db_connection);
 
     if ($name == "Kun") {
         $url = "http://kunsu.us/users.json";
@@ -62,7 +75,7 @@ function get_user_list($name) {
                     <tbody>
 
                     <?php
-                        $result = get_user_list("Kun");
+                        $result = get_user_list($db_connection, "Kun");
                         foreach ($result as $key => $value)
                         {
                             echo "<tr>";
@@ -88,7 +101,7 @@ function get_user_list($name) {
                     </thead>
                     <tbody>
                         <?php
-                            $result = get_user_list("Taylor");
+                            $result = get_user_list($db_connection, "Taylor");
 
                             foreach ($result as $key => $value)
                             {
@@ -116,7 +129,7 @@ function get_user_list($name) {
                     </thead>
                     <tbody>
                         <?php
-                            $result = get_user_list("Ru");
+                            $result = get_user_list($db_connection, "Ru");
 
                             foreach ($result as $key => $value)
                             {
