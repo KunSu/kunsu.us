@@ -23,7 +23,6 @@ function get_user_list($db_connection, $name) {
     $JSONfile = fopen("users.json", "w");
     fwrite($JSONfile, $result);
     fclose($JSONfile);
-    mysqli_close($db_connection);
 
     if ($name == "Kun") {
         $url = "http://kunsu.us/users.json";
@@ -154,3 +153,5 @@ function get_user_list($db_connection, $name) {
     </p>
 </body>
 </html>
+
+<?php mysqli_close($db_connection); ?>
